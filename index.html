@@ -8,6 +8,8 @@
 
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="dashboard.css">
+		<link rel="stylesheet" type="text/css" href="helper.css">
 		<link rel="stylesheet" type="text/css" href="style.css">
 
 	</head>
@@ -71,7 +73,7 @@
 
 
 <!-- Large modal -->
-		<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Large modal</button>
+		<button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target=".bs-example-modal-lg">CLICK ON ME!!!!</button>
 
 		<div class="modal fade bs-example-modal-lg modal-applicant-review" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
 		  
@@ -87,7 +89,7 @@
                             <p>T: (123) 555-1234 | E: <a href="mailto:#/">dwright@email.com</a></p>
                         </span>
 			  		</div>
-			  		<div class="col-md-4 text-center applicant-nav-center">
+			  		<div class="col-xs-5 col-sm-6 col-md-4 text-center applicant-nav-center">
 			  			<span>
                             <i class="fa fa-lg fa-star-o" aria-hidden="true"></i>
                             <i class="fa fa-lg fa-star-o" aria-hidden="true"></i>
@@ -97,42 +99,201 @@
                         </span>
 
                         <span>
-                            <i>NO RATING</i>
+                            <i class="hidden-xs">NO RATING</i>
                         </span>
 			  		</div>
-			  		<div class="col-md-4 text-center applicant-nav-right">
-			  			<button class="btn btn-success" data-toggle="modal" data-target=".bs-example-modal-lg" id="btnReviewApplication"><i class="fa fa-lg fa-check"></i></button>
-                        <button class="btn btn-danger"><i class="fa fa-lg fa-close"></i></button>
-                        <button class="btn btn-info"><i class="fa fa-lg fa-share"></i></button>
-                        <button class="btn btn-primary"><i class="fa fa-lg fa-envelope-o"></i></button>
+			  		<div class="col-xs-7 col-sm-6 col-md-4 text-center applicant-nav-right">
+			  			<button class="btn btn-sm btn-success" data-toggle="modal" data-target=".bs-example-modal-lg" id="btnReviewApplication"><i class="fa fa-lg fa-check"></i></button>
+                        <button class="btn btn-sm btn-danger"><i class="fa fa-lg fa-close"></i></button>
+                        <button class="btn btn-sm btn-info"><i class="fa fa-lg fa-share"></i></button>
+                        <button class="btn btn-sm btn-primary"><i class="fa fa-lg fa-envelope-o"></i></button>
 			  		</div>
 		  		</div>
 		  	</div>
 		  </div>
 
-		  <div class="modal-dialog modal-dialog-resume modal-lg modal-r" role="document">
+		  <div class="applicant-nav navbar-fixed-bottom">
+		  	<div class="container">
+		  		<div class="row">
+		  			<div class="col-xs-6 text-center ">
+			  			<a href="#/" class="btn btn-link btnPrev">Previous</a>
+			  		</div>
+			  		<div class="col-xs-6 text-center ">
+			  			<a href="#/" class="btn btn-link btnNext">Next</a>
+			  		</div>
+			  		
+		  		</div>
+		  	</div>
+		  </div>
+
+		  <div class="modal-dialog modal-dialog-1 modal-lg modal-r" role="document">
 		    <div class="modal-content">
 		      <div class="modal-header">
 		      	<h5>Cover Letter</h5>
 		      </div>
 		      <div class="modal-body">
-		      	...
+		      	<a href="#/">View Original Cover Letter</a>
+		      	<div class="padding"></div>
+		      	<p>10/10/2017</p>
+				<div class="padding"></div>
+				<address>
+					Ms. Rhonda West <br>
+					Customer Service Manager <br>
+					Acme, Inc. <br>
+					123 Corporate Blvd. <br>
+					Sometown, CO 50802
+				</address>
+				<div class="padding"></div>
+				<p>Re: Customer Service REpresentative OPening (Ref. ID: CS300-Denver)</p>
+				<div class="padding"></div>
+				<p>Dear Ms. West</p>
+				<div class="padding"></div>
+				<p>
+				Phasellus porttitor ullamcorper lectus. Nullam eu venenatis neque. Duis ac sem ex. Etiam commodo ut quam ut viverra. Sed sapien justo, rhoncus vel diam vel, rhoncus blandit odio. Donec dignissim turpis augue, non sagittis mi luctus ut. Nunc in mauris vel arcu elementum pellentesque.
+				</p>
+				<p>
+				Fusce faucibus laoreet tortor, ac tristique nisl elementum a. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur id lobortis ipsum. Etiam porta purus quis eros tempor, nec volutpat dolor commodo. Donec tempor tortor a nulla tincidunt, vel rutrum odio lacinia. In tincidunt sem nec neque luctus vehicula. Nullam et leo interdum, egestas nisl quis, gravida neque. Nam ac auctor est. Donec porta orci nec elit mollis, et ullamcorper metus pretium.
+				</p>
+				<p>
+				Suspendisse pretium, odio ut tristique scelerisque, leo lacus vulputate nisl, ac malesuada nisi arcu ut sem. Proin arcu tellus, malesuada sed ex a, suscipit interdum felis. Fusce vehicula odio sed magna venenatis, at aliquet purus mattis. Donec quis iaculis tellus. Suspendisse ut tempor eros. Nunc at efficitur libero. Quisque eu odio quis quam tempus iaculis. Sed ligula elit, posuere sit amet purus pulvinar, ultricies ultrices enim. Duis viverra, augue pharetra vulputate ultricies, augue ante auctor nisl, tristique gravida odio quam ut magna. Maecenas convallis venenatis dui ac mattis. In porttitor purus tellus, in tristique eros sodales nec. Pellentesque bibendum est sit amet eleifend venenatis. Curabitur ipsum est, pharetra a quam ac, tempus finibus sapien. Integer leo ligula, condimentum sit amet rhoncus at, mollis ut ipsum. Fusce interdum tortor vel eleifend vehicula.
+				</p>
+				<div class="padding"></div>
+				<p>Sincerely, <br>
+				Sue Ling
+				</p>
 		      </div>
 		    </div>
 		  </div>
 
-		  <div class="modal-dialog modal-lg" role="document">
+		  <div class="modal-dialog modal-dialog-2  modal-lg" role="document">
 		    <div class="modal-content">
 		       <div class="modal-header">
 		      	<h5>Resume</h5>
 		      </div>
 		      <div class="modal-body">
-		      	...
+		      	
+                            <a href="">View Original Resume</a>
+                            
+
+                            
+                            <h6>Personal Information</h6>
+                            <div class="form-horizontal">
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label text-left">Applicant Name</label>
+                                    <div class="col-sm-9">
+                                        <p class="form-control-static">Marty Bird</p>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label text-left">Applicant Address</label>
+                                    <div class="col-sm-9">
+                                        <p class="form-control-static">
+                                            212 Maple Dr <br>
+                                            Tampa, FL 33605
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label text-left">Months of Experience</label>
+                                    <div class="col-sm-9">
+                                        <p class="form-control-static">142</p>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label text-left">Current Employer Name</label>
+                                    <div class="col-sm-9">
+                                        <p class="form-control-static">ABC Community College</p>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label text-left">Current Job Title</label>
+                                    <div class="col-sm-9">
+                                        <p class="form-control-static">Administrative Assistant</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <h6>Education History</h6>
+                            <div class="form-horizontal">
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label text-left">School Name</label>
+                                    <div class="col-sm-9">
+                                        <p class="form-control-static">ABC Community College</p>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label text-left">Degree Name</label>
+                                    <div class="col-sm-9">
+                                        <p class="form-control-static">Bachelor of Arts</p>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label text-left">Degree Major</label>
+                                    <div class="col-sm-9">
+                                        <p class="form-control-static">Marketing</p>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label text-left">Degree Date</label>
+                                    <div class="col-sm-9">
+                                        <p class="form-control-static">5/1/2010</p>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label text-left">End Date</label>
+                                    <div class="col-sm-9">
+                                        <p class="form-control-static">5/1/2010</p>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label text-left">Degree Location</label>
+                                    <div class="col-sm-9">
+                                        <p class="form-control-static">Tampa, FL</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <h6>Employment History</h6>
+                            <div class="form-horizontal">
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label text-left">Employer Namne</label>
+                                    <div class="col-sm-9">
+                                        <p class="form-control-static">CYC Healthcare Systems</p>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label text-left">Position Title</label>
+                                    <div class="col-sm-9">
+                                        <p class="form-control-static">Research Analyst</p>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label text-left">Start Date</label>
+                                    <div class="col-sm-9">
+                                        <p class="form-control-static">01/01/2009</p>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label text-left">End Date</label>
+                                    <div class="col-sm-9">
+                                        <p class="form-control-static">08/01/2012</p>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label text-left">Position Description</label>
+                                    <div class="col-sm-9">
+                                        <ul class="form-control-static">
+                                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rutrum commodo lorem sit amet ultricies. Integer pretium luctus ante, scelerisque mattis sem ultrices eu.</li>
+                                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rutrum commodo lorem sit amet ultricies. Integer pretium luctus ante, scelerisque mattis sem ultrices eu.</li>
+                                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rutrum commodo lorem sit amet ultricies. Integer pretium luctus ante, scelerisque mattis sem ultrices eu.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>  
+
 		      </div>
 		    </div>
 		  </div>
 
-		  <div class="modal-dialog modal-lg" role="document">
+		  <div class="modal-dialog modal-dialog-3 modal-lg" role="document">
 		    <div class="modal-content">
 		       <div class="modal-header">
 		      	<h5>Title</h5>
@@ -163,159 +324,6 @@
 
 
 
-
-
-          <div class="row placeholders">
-            <div class="col-xs-6 col-sm-3 placeholder">
-              <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail">
-              <h4>Label</h4>
-              <span class="text-muted">Something else</span>
-            </div>
-            <div class="col-xs-6 col-sm-3 placeholder">
-              <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail">
-              <h4>Label</h4>
-              <span class="text-muted">Something else</span>
-            </div>
-            <div class="col-xs-6 col-sm-3 placeholder">
-              <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail">
-              <h4>Label</h4>
-              <span class="text-muted">Something else</span>
-            </div>
-            <div class="col-xs-6 col-sm-3 placeholder">
-              <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail">
-              <h4>Label</h4>
-              <span class="text-muted">Something else</span>
-            </div>
-          </div>
-
-          <h2 class="sub-header">Section title</h2>
-          <div class="table-responsive">
-            <table class="table table-striped">
-              <thead>
-                <tr>
-                  <th>#</th>
-                  <th>Header</th>
-                  <th>Header</th>
-                  <th>Header</th>
-                  <th>Header</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>1,001</td>
-                  <td>Lorem</td>
-                  <td>ipsum</td>
-                  <td>dolor</td>
-                  <td>sit</td>
-                </tr>
-                <tr>
-                  <td>1,002</td>
-                  <td>amet</td>
-                  <td>consectetur</td>
-                  <td>adipiscing</td>
-                  <td>elit</td>
-                </tr>
-                <tr>
-                  <td>1,003</td>
-                  <td>Integer</td>
-                  <td>nec</td>
-                  <td>odio</td>
-                  <td>Praesent</td>
-                </tr>
-                <tr>
-                  <td>1,003</td>
-                  <td>libero</td>
-                  <td>Sed</td>
-                  <td>cursus</td>
-                  <td>ante</td>
-                </tr>
-                <tr>
-                  <td>1,004</td>
-                  <td>dapibus</td>
-                  <td>diam</td>
-                  <td>Sed</td>
-                  <td>nisi</td>
-                </tr>
-                <tr>
-                  <td>1,005</td>
-                  <td>Nulla</td>
-                  <td>quis</td>
-                  <td>sem</td>
-                  <td>at</td>
-                </tr>
-                <tr>
-                  <td>1,006</td>
-                  <td>nibh</td>
-                  <td>elementum</td>
-                  <td>imperdiet</td>
-                  <td>Duis</td>
-                </tr>
-                <tr>
-                  <td>1,007</td>
-                  <td>sagittis</td>
-                  <td>ipsum</td>
-                  <td>Praesent</td>
-                  <td>mauris</td>
-                </tr>
-                <tr>
-                  <td>1,008</td>
-                  <td>Fusce</td>
-                  <td>nec</td>
-                  <td>tellus</td>
-                  <td>sed</td>
-                </tr>
-                <tr>
-                  <td>1,009</td>
-                  <td>augue</td>
-                  <td>semper</td>
-                  <td>porta</td>
-                  <td>Mauris</td>
-                </tr>
-                <tr>
-                  <td>1,010</td>
-                  <td>massa</td>
-                  <td>Vestibulum</td>
-                  <td>lacinia</td>
-                  <td>arcu</td>
-                </tr>
-                <tr>
-                  <td>1,011</td>
-                  <td>eget</td>
-                  <td>nulla</td>
-                  <td>Class</td>
-                  <td>aptent</td>
-                </tr>
-                <tr>
-                  <td>1,012</td>
-                  <td>taciti</td>
-                  <td>sociosqu</td>
-                  <td>ad</td>
-                  <td>litora</td>
-                </tr>
-                <tr>
-                  <td>1,013</td>
-                  <td>torquent</td>
-                  <td>per</td>
-                  <td>conubia</td>
-                  <td>nostra</td>
-                </tr>
-                <tr>
-                  <td>1,014</td>
-                  <td>per</td>
-                  <td>inceptos</td>
-                  <td>himenaeos</td>
-                  <td>Curabitur</td>
-                </tr>
-                <tr>
-                  <td>1,015</td>
-                  <td>sodales</td>
-                  <td>ligula</td>
-                  <td>in</td>
-                  <td>libero</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
         </div>
       </div>
     </div>
